@@ -1,0 +1,61 @@
+{
+  "name": "handcontrol_blender",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron:build": "tsc && vite build && electron-builder",
+    "electron:pack": "tsc && vite build && electron-builder --dir"
+  },
+  "build": {
+    "appId": "com.handcontrol.blender",
+    "productName": "HandControl Blender",
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "public/favicon.svg"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "public/favicon.svg"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "public/favicon.svg"
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-legacy": "^8.2.3",
+    "@vitejs/plugin-react": "^6.1.0",
+    "concurrently": "^9.1.0",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "wait-on": "^8.0.1"
+  },
+  "dependencies": {
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@mediapipe/tasks-vision": "^1.0.1",
+    "@react-spring/web": "^10.1.2",
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@types/three": "^0.185.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.34.0",
+    "react-dom": "^19.2.8",
+    "three": "0.182.0",
+    "three-stdlib": "^2.36.1",
+    "zustand": "^5.0.15"
+  }
+}

@@ -1,0 +1,53 @@
+.electron-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28px;
+  background: #1e1e2e;
+  border-bottom: 1px solid #2e303a;
+  user-select: none;
+  -webkit-app-region: drag;
+}
+
+.electron-titlebar__drag {
+  flex: 1;
+  height: 100%;
+}
+
+.electron-titlebar__controls {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 4px;
+  -webkit-app-region: no-drag;
+}
+
+.electron-titlebar__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: #aaa;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.electron-titlebar__btn:hover {
+  background: #303040;
+  color: #fff;
+}
+
+.electron-titlebar__btn.active {
+  background: #4a4a6a;
+  color: #55aaff;
+}
+
+.electron-titlebar__btn--close:hover {
+  background: #ff3366;
+  color: #fff;
+}

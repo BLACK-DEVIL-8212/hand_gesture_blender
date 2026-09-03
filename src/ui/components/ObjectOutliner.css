@@ -1,0 +1,103 @@
+.object-outliner {
+  width: 280px;
+  min-width: 240px;
+  max-width: 360px;
+  background: #1e1e2e;
+  border-left: 1px solid #2e303a;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.object-outliner {
+  height: auto;
+  max-height: 40vh;
+}
+
+.object-outliner__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #252535;
+  border-bottom: 1px solid #2e303a;
+  font-size: 13px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.outliner__list {
+  padding: 4px 0;
+}
+
+.outliner__item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 13px;
+  border-left: 2px solid transparent;
+  transition: all 0.15s;
+}
+
+.outliner__item:hover {
+  background: #2a2a3a;
+}
+
+.outliner__item.selected {
+  background: #2a2a4a;
+  border-left-color: #00ffff;
+}
+
+.outliner__expand {
+  cursor: pointer;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
+.outliner__icon {
+  font-size: 14px;
+}
+
+.outliner__name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.outliner__actions {
+  display: none;
+  align-items: center;
+  gap: 2px;
+}
+
+.outliner__item:hover .outliner__actions {
+  display: flex;
+}
+
+.outliner__action-btn {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: #252535;
+  border-radius: 2px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.outliner__action-btn:hover {
+  background: #303040;
+}
+
+.outliner__empty {
+  padding: 16px;
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+}

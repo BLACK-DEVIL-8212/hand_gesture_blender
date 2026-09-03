@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "name": "HandControl Project",
+    "version": "1.0.0",
+    "createdAt": 1787794399483,
+    "updatedAt": 1787794399483
+  },
+  "scene": {
+    "id": "scene_1787794399483",
+    "name": "Scene",
+    "objects": {
+      "obj_mtauck0c_sf27s": {
+        "id": "obj_mtauck0c_sf27s",
+        "name": "Cube",
+        "type": "cube",
+        "transform": {
+          "position": {
+            "x": 3.2403066900298856,
+            "y": 1.4415446777630303,
+            "z": -3.8762018244926906
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "parent": null,
+        "material": {
+          "id": "obj_mtauck0c_erjm5",
+          "name": "Material",
+          "baseColor": "#4A90D9",
+          "metalness": 0.1,
+          "roughness": 0.7,
+          "emissive": "#000000",
+          "emissiveIntensity": 0,
+          "transparent": false,
+          "opacity": 1
+        },
+        "castShadow": true,
+        "receiveShadow": true,
+        "userData": {},
+        "children": [],
+        "createdAt": 1787793933900,
+        "created": 1787793933900
+      },
+      "obj_mtauck0c_kfz1i": {
+        "id": "obj_mtauck0c_kfz1i",
+        "name": "Sphere",
+        "type": "sphere",
+        "transform": {
+          "position": {
+            "x": 3.14169785948706,
+            "y": 2.4457014265334664,
+            "z": -3.700746817306066
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "parent": null,
+        "material": {
+          "id": "obj_mtauck0c_4emfz",
+          "name": "Material",
+          "baseColor": "#E74C3C",
+          "metalness": 0.1,
+          "roughness": 0.7,
+          "emissive": "#000000",
+          "emissiveIntensity": 0,
+          "transparent": false,
+          "opacity": 1
+        },
+        "castShadow": true,
+        "receiveShadow": true,
+        "userData": {},
+        "children": [],
+        "createdAt": 1787793933900,
+        "created": 1787793933900
+      },
+      "obj_mtauck0c_5mk77": {
+        "id": "obj_mtauck0c_5mk77",
+        "name": "Cylinder",
+        "type": "cylinder",
+        "transform": {
+          "position": {
+            "x": 3.1965688734226703,
+            "y": 0.12245673378524013,
+            "z": -3.83706416318398
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "parent": null,
+        "material": {
+          "id": "obj_mtauck0c_hgg1t",
+          "name": "Material",
+          "baseColor": "#9B59B6",
+          "metalness": 0.1,
+          "roughness": 0.7,
+          "emissive": "#000000",
+          "emissiveIntensity": 0,
+          "transparent": false,
+          "opacity": 1
+        },
+        "castShadow": true,
+        "receiveShadow": true,
+        "userData": {},
+        "children": [],
+        "createdAt": 1787793933900,
+        "created": 1787793933900
+      },
+      "obj_mtauck0c_sj44p": {
+        "id": "obj_mtauck0c_sj44p",
+        "name": "Cone",
+        "type": "cone",
+        "transform": {
+          "position": {
+            "x": 3.184914178061191,
+            "y": 3.7755177253808743,
+            "z": -3.5558085924065193
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "parent": null,
+        "material": {
+          "id": "obj_mtauck0c_88rj6",
+          "name": "Material",
+          "baseColor": "#F39C12",
+          "metalness": 0.1,
+          "roughness": 0.7,
+          "emissive": "#000000",
+          "emissiveIntensity": 0,
+          "transparent": false,
+          "opacity": 1
+        },
+        "castShadow": true,
+        "receiveShadow": true,
+        "userData": {},
+        "children": [],
+        "createdAt": 1787793933900,
+        "created": 1787793933900
+      },
+      "obj_mtauck0c_vzmp7": {
+        "id": "obj_mtauck0c_vzmp7",
+        "name": "Torus",
+        "type": "torus",
+        "transform": {
+          "position": {
+            "x": 3.4573552622703536,
+            "y": 2.916885249306106,
+            "z": -5.30528419093005
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "parent": null,
+        "material": {
+          "id": "obj_mtauck0c_ohynf",
+          "name": "Material",
+          "baseColor": "#1ABC9C",
+          "metalness": 0.1,
+          "roughness": 0.7,
+          "emissive": "#000000",
+          "emissiveIntensity": 0,
+          "transparent": false,
+          "opacity": 1
+        },
+        "castShadow": true,
+        "receiveShadow": true,
+        "userData": {},
+        "children": [],
+        "createdAt": 1787793933900,
+        "created": 1787793933900
+      },
+      "obj_mtauck0c_x0jmo": {
+        "id": "obj_mtauck0c_x0jmo",
+        "name": "Ground",
+        "type": "plane",
+        "transform": {
+          "position": {
+            "x": -1.7229749125337261,
+            "y": -2.46893988866022,
+            "z": 1.8934110069634413
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "visible": true,
+        "locked": false,
+        "parent": null,
+        "material": {
+          "id": "obj_mtauck0c_vkwub",
+          "name": "Material",
+          "baseColor": "#888888",
+          "metalness": 0.1,
+          "roughness": 0.7,
+          "emissive": "#000000",
+          "emissiveIntensity": 0,
+          "transparent": false,
+          "opacity": 1
+        },
+        "castShadow": true,
+        "receiveShadow": true,
+        "userData": {},
+        "children": [],
+        "createdAt": 1787793933900,
+        "created": 1787793933900
+      }
+    },
+    "rootIds": [
+      "obj_mtauck0c_sf27s",
+      "obj_mtauck0c_kfz1i",
+      "obj_mtauck0c_5mk77",
+      "obj_mtauck0c_sj44p",
+      "obj_mtauck0c_vzmp7",
+      "obj_mtauck0c_x0jmo"
+    ],
+    "cameraId": null,
+    "environment": {
+      "backgroundColor": "#1a1a2e",
+      "fogEnabled": false,
+      "fogColor": "#000000",
+      "fogNear": 10,
+      "fogFar": 100
+    },
+    "createdAt": 1787794399483,
+    "updatedAt": 1787794399483,
+    "metadata": {}
+  },
+  "settings": {}
+}

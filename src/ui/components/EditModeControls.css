@@ -1,0 +1,137 @@
+.edit-mode-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+  background: #1a1a2e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.edit-mode-controls__section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.edit-mode-controls__title {
+  font-weight: 600;
+  color: #00ffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.edit-mode-controls__tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.edit-mode-controls__tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 8px;
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 60px;
+}
+
+.edit-mode-controls__tool:hover {
+  background: #1a1a2e;
+  border-color: #00ffff;
+}
+
+.edit-mode-controls__tool.active {
+  background: #0f3460;
+  border-color: #00ffff;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+.edit-mode-controls__tool-icon {
+  font-size: 16px;
+}
+
+.edit-mode-controls__tool-label {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.edit-mode-controls__separator {
+  height: 1px;
+  background: #0f3460;
+  margin: 4px 0;
+}
+
+.edit-mode-controls__sub-modes {
+  display: flex;
+  gap: 6px;
+}
+
+.edit-mode-controls__sub-mode {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.edit-mode-controls__sub-mode:hover {
+  background: #1a1a2e;
+  border-color: #00ffff;
+}
+
+.edit-mode-controls__sub-mode.active {
+  background: #0f3460;
+  border-color: #00ffff;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+.edit-mode-controls__sub-mode-icon {
+  font-size: 12px;
+}
+
+.edit-mode-controls__sub-mode-label {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.edit-mode-controls__slider {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.edit-mode-controls__slider label {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.edit-mode-controls__slider input[type="range"] {
+  width: 100%;
+  height: 4px;
+  background: #0f3460;
+  border-radius: 2px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.edit-mode-controls__slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #00ffff;
+  border-radius: 50%;
+  cursor: pointer;
+}

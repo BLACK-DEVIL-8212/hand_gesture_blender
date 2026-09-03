@@ -1,0 +1,103 @@
+.debug-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  background: rgba(15, 15, 25, 0.92);
+  border: 1px solid #2e303a;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 11px;
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  color: #aaa;
+  max-width: 420px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.debug-overlay__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #2e303a;
+}
+
+.debug-overlay__header span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.debug-overlay__header button {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.debug-overlay__section {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #2e303a;
+}
+
+.debug-overlay__section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.debug-overlay__section h4 {
+  color: #55aaff;
+  font-size: 11px;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.debug-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  gap: 8px;
+}
+
+.debug-row span:first-child {
+  color: #888;
+  flex-shrink: 0;
+}
+
+.debug-value {
+  color: #e0e0e0;
+  font-weight: 500;
+  text-align: right;
+  word-break: break-all;
+}
+
+.debug-ok {
+  color: #00ff88;
+}
+
+.debug-err {
+  color: #ff3366;
+}
+
+.debug-overlay__toggle {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  width: 48px;
+  height: 28px;
+  border: 1px solid #2e303a;
+  border-radius: 4px;
+  background: #252535;
+  color: #e0e0e0;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: 'SFMono-Regular', Consolas, monospace;
+}

@@ -1,0 +1,104 @@
+.left-toolbar {
+  width: 200px;
+  min-width: 200px;
+  background: #1e1e2e;
+  border-right: 1px solid #2e303a;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.left-toolbar__section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.left-toolbar__title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #888;
+  padding: 0 4px;
+  margin-bottom: 4px;
+}
+
+.left-toolbar__tools {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.left-toolbar__tool,
+.left-toolbar__object,
+.left-toolbar__axis {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 6px;
+  border: 1px solid #2e303a;
+  border-radius: 4px;
+  background: #252535;
+  color: #e0e0e0;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.left-toolbar__tool:hover,
+.left-toolbar__object:hover,
+.left-toolbar__axis:hover {
+  background: #303040;
+  border-color: #555;
+}
+
+.left-toolbar__tool.active,
+.left-toolbar__object.active,
+.left-toolbar__axis.active {
+  background: #4a4a6a;
+  border-color: #5555ff;
+  color: #fff;
+}
+
+.left-toolbar__tool-icon,
+.left-toolbar__object-icon {
+  font-size: 16px;
+}
+
+.left-toolbar__tool-hotkey {
+  margin-left: auto;
+  font-size: 10px;
+  color: #888;
+  background: #1a1a2e;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+.left-toolbar__separator {
+  height: 1px;
+  background: #2e303a;
+  margin: 4px 0;
+}
+
+.left-toolbar__objects,
+.left-toolbar__axes {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.left-toolbar__axis {
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.left-toolbar__axis-line {
+  display: inline-block;
+  width: 12px;
+  height: 3px;
+  margin-right: 4px;
+  vertical-align: middle;
+}

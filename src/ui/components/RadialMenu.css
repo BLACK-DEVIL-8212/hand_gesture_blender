@@ -1,0 +1,69 @@
+.radial-menu {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.radial-menu__backdrop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.radial-menu__item {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #2e303a;
+  border-radius: 50%;
+  background: #252535;
+  color: #e0e0e0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.2s;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+.radial-menu__item:hover {
+  background: #303040;
+  border-color: #5555ff;
+  transform: scale(1.1);
+}
+
+.radial-menu__icon {
+  font-size: 20px;
+}
+
+.radial-menu__label {
+  font-size: 9px;
+  color: #aaa;
+}
+
+.radial-menu__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4a4a6a;
+  border: 1px solid #5555ff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  pointer-events: none;
+}

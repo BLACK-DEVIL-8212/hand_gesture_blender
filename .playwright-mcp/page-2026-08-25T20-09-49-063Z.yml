@@ -1,0 +1,203 @@
+- generic [ref=f4e3]:
+  - generic [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - button "📄 New" [ref=f4e6] [cursor=pointer]:
+        - generic [ref=f4e7]: 📄
+        - text: New
+      - button "📂 Open" [ref=f4e8] [cursor=pointer]:
+        - generic [ref=f4e9]: 📂
+        - text: Open
+      - button "💾 Save" [ref=f4e10] [cursor=pointer]:
+        - generic [ref=f4e11]: 💾
+        - text: Save
+      - button "💾 Save As" [ref=f4e12] [cursor=pointer]:
+        - generic [ref=f4e13]: 💾
+        - text: Save As
+    - generic [ref=f4e14]:
+      - button "↩️" [disabled] [ref=f4e15]
+      - button "↪️" [disabled] [ref=f4e17]
+    - button "➕ Add" [ref=f4e20] [cursor=pointer]:
+      - generic [ref=f4e21]: ➕
+      - text: Add
+    - generic [ref=f4e22]:
+      - button "👆 Select" [ref=f4e23] [cursor=pointer]:
+        - generic [ref=f4e24]: 👆
+        - text: Select
+      - button "🖐️ Move" [ref=f4e25] [cursor=pointer]:
+        - generic [ref=f4e26]: 🖐️
+        - text: Move
+      - button "🔁 Rotate" [ref=f4e27] [cursor=pointer]:
+        - generic [ref=f4e28]: 🔁
+        - text: Rotate
+      - button "🔍 Scale" [ref=f4e29] [cursor=pointer]:
+        - generic [ref=f4e30]: 🔍
+        - text: Scale
+      - button "➕ Create" [ref=f4e31] [cursor=pointer]:
+        - generic [ref=f4e32]: ➕
+        - text: Create
+      - button "📹 Camera" [ref=f4e33] [cursor=pointer]:
+        - generic [ref=f4e34]: 📹
+        - text: Camera
+      - button "✏️ Edit" [ref=f4e35] [cursor=pointer]:
+        - generic [ref=f4e36]: ✏️
+        - text: Edit
+    - button "⚙️" [ref=f4e38] [cursor=pointer]
+  - generic [ref=f4e40]:
+    - generic [ref=f4e42]:
+      - generic [ref=f4e43]:
+        - generic [ref=f4e44]: Tools
+        - generic [ref=f4e45]:
+          - button "👆 Select Q" [ref=f4e46] [cursor=pointer]:
+            - generic [ref=f4e47]: 👆
+            - generic [ref=f4e48]: Select
+            - generic [ref=f4e49]: Q
+          - button "🖐️ Move G" [ref=f4e50] [cursor=pointer]:
+            - generic [ref=f4e51]: 🖐️
+            - generic [ref=f4e52]: Move
+            - generic [ref=f4e53]: G
+          - button "🔁 Rotate R" [ref=f4e54] [cursor=pointer]:
+            - generic [ref=f4e55]: 🔁
+            - generic [ref=f4e56]: Rotate
+            - generic [ref=f4e57]: R
+          - button "🔍 Scale S" [ref=f4e58] [cursor=pointer]:
+            - generic [ref=f4e59]: 🔍
+            - generic [ref=f4e60]: Scale
+            - generic [ref=f4e61]: S
+          - button "➕ Create A" [ref=f4e62] [cursor=pointer]:
+            - generic [ref=f4e63]: ➕
+            - generic [ref=f4e64]: Create
+            - generic [ref=f4e65]: A
+          - button "📹 Camera C" [ref=f4e66] [cursor=pointer]:
+            - generic [ref=f4e67]: 📹
+            - generic [ref=f4e68]: Camera
+            - generic [ref=f4e69]: C
+          - button "✏️ Edit Tab" [ref=f4e70] [cursor=pointer]:
+            - generic [ref=f4e71]: ✏️
+            - generic [ref=f4e72]: Edit
+            - generic [ref=f4e73]: Tab
+      - generic [ref=f4e75]:
+        - generic [ref=f4e76]: Objects
+        - generic [ref=f4e77]:
+          - button "🔲 Cube" [ref=f4e78] [cursor=pointer]:
+            - generic [ref=f4e79]: 🔲
+            - generic [ref=f4e80]: Cube
+          - button "⚪ Sphere" [ref=f4e81] [cursor=pointer]:
+            - generic [ref=f4e82]: ⚪
+            - generic [ref=f4e83]: Sphere
+          - button "🟥 Cylinder" [ref=f4e84] [cursor=pointer]:
+            - generic [ref=f4e85]: 🟥
+            - generic [ref=f4e86]: Cylinder
+          - button "🔺 Cone" [ref=f4e87] [cursor=pointer]:
+            - generic [ref=f4e88]: 🔺
+            - generic [ref=f4e89]: Cone
+          - button "🍩 Torus" [ref=f4e90] [cursor=pointer]:
+            - generic [ref=f4e91]: 🍩
+            - generic [ref=f4e92]: Torus
+          - button "⬜ Plane" [ref=f4e93] [cursor=pointer]:
+            - generic [ref=f4e94]: ⬜
+            - generic [ref=f4e95]: Plane
+          - button "⚪ Empty" [ref=f4e96] [cursor=pointer]:
+            - generic [ref=f4e97]: ⚪
+            - generic [ref=f4e98]: Empty
+      - generic [ref=f4e100]:
+        - generic [ref=f4e101]: Axis
+        - generic [ref=f4e102]:
+          - button "X" [ref=f4e103] [cursor=pointer]
+          - button "Y" [ref=f4e105] [cursor=pointer]
+          - button "Z" [ref=f4e107] [cursor=pointer]
+          - button "∅" [ref=f4e109] [cursor=pointer]
+      - generic [ref=f4e112]:
+        - generic [ref=f4e113]: View
+        - generic [ref=f4e114]:
+          - button "🔲 Frame All F" [ref=f4e115] [cursor=pointer]:
+            - generic [ref=f4e116]: 🔲
+            - generic [ref=f4e117]: Frame All
+            - generic [ref=f4e118]: F
+          - button "🎯 Focus Shift+F" [ref=f4e119] [cursor=pointer]:
+            - generic [ref=f4e120]: 🎯
+            - generic [ref=f4e121]: Focus
+            - generic [ref=f4e122]: Shift+F
+    - generic [ref=f4e123]:
+      - generic [ref=f4e125]:
+        - generic [ref=f4e126]: 📷
+        - heading "Enable Hand Tracking" [level=3] [ref=f4e127]
+        - paragraph [ref=f4e128]: Click to grant camera access and start hand tracking
+        - button "Start Hand Tracking" [ref=f4e129] [cursor=pointer]
+      - generic [ref=f4e133]:
+        - generic [ref=f4e134]: HAND TRACKING
+        - generic [ref=f4e135]:
+          - generic [ref=f4e136]: Camera
+          - generic [ref=f4e137]: "OFF"
+        - generic [ref=f4e139]:
+          - generic [ref=f4e140]: Left Hand
+          - generic [ref=f4e141]: 0%
+        - generic [ref=f4e142]:
+          - generic [ref=f4e143]: Right Hand
+          - generic [ref=f4e144]: 0%
+        - generic [ref=f4e145]:
+          - generic [ref=f4e146]: Gesture
+          - generic [ref=f4e147]: IDLE 0%
+        - generic [ref=f4e148]:
+          - generic [ref=f4e149]: Mode
+          - generic [ref=f4e150]: SELECT
+        - generic [ref=f4e151]:
+          - generic [ref=f4e152]: Tracking
+          - generic [ref=f4e153]: LOST
+        - button "Start Tracking" [ref=f4e155] [cursor=pointer]
+    - generic [ref=f4e156]:
+      - generic [ref=f4e158]:
+        - generic [ref=f4e159]:
+          - text: Outliner
+          - generic [ref=f4e160]: (6)
+        - generic [ref=f4e161]:
+          - generic [ref=f4e162] [cursor=pointer]:
+            - generic [ref=f4e163]: 🔲
+            - generic "Cube" [ref=f4e164]
+          - generic [ref=f4e165] [cursor=pointer]:
+            - generic [ref=f4e166]: ⚪
+            - generic "Sphere" [ref=f4e167]
+          - generic [ref=f4e168] [cursor=pointer]:
+            - generic [ref=f4e169]: 🟤
+            - generic "Cylinder" [ref=f4e170]
+          - generic [ref=f4e171] [cursor=pointer]:
+            - generic [ref=f4e172]: 🔺
+            - generic "Cone" [ref=f4e173]
+          - generic [ref=f4e174] [cursor=pointer]:
+            - generic [ref=f4e175]: 🍩
+            - generic "Torus" [ref=f4e176]
+          - generic [ref=f4e177] [cursor=pointer]:
+            - generic [ref=f4e178]: ⬜
+            - generic "Ground" [ref=f4e179]
+      - generic [ref=f4e182]:
+        - paragraph [ref=f4e183]: No object selected
+        - paragraph [ref=f4e184]: Select an object to edit its properties
+  - generic [ref=f4e186]:
+    - generic [ref=f4e187]:
+      - generic [ref=f4e188]:
+        - generic [ref=f4e189]: GESTURE
+        - generic [ref=f4e190]: IDLE 0%
+      - generic [ref=f4e191]:
+        - generic [ref=f4e192]: MODE
+        - generic [ref=f4e193]: 👆 SELECT
+      - generic [ref=f4e194]:
+        - generic [ref=f4e195]: OBJECT
+        - generic [ref=f4e196]: None
+      - generic [ref=f4e197]:
+        - generic [ref=f4e198]: TRACKING
+        - generic [ref=f4e199]: LOST
+    - generic [ref=f4e201]:
+      - generic [ref=f4e202]:
+        - generic [ref=f4e203]: Hand
+        - generic [ref=f4e204]: NONE
+      - generic [ref=f4e205]:
+        - generic [ref=f4e206]: Pinch
+        - generic [ref=f4e207]: —
+      - generic [ref=f4e208]:
+        - generic [ref=f4e209]: Pos
+        - generic [ref=f4e210]: —
+      - generic [ref=f4e211]:
+        - generic [ref=f4e212]: Camera
+        - generic [ref=f4e213]: "OFF"
+      - generic [ref=f4e214]:
+        - generic [ref=f4e215]: FPS
+        - generic [ref=f4e216]: "0"
